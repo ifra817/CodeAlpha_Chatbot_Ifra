@@ -1,0 +1,90 @@
+{
+    "greetings": {
+        "patterns": ["hello", "hi", "hey", "good morning", "good afternoon", "good evening", "what's up", "yo", "hiya"],
+        "responses": [
+            "Hello! How can I assist you?",
+            "Hi there! How can I assist you today?",
+            "Hey! How can I assist you today?",
+            "Greetings! How can I assist you today?",
+            "Yo! How can I assist you today?",
+            "Good to see you! How can I assist you today?"
+        ]
+    },
+    "okay": {
+        "patterns": ["okay", "alright", "alrighty", "alright then"],
+        "responses": ["Great! Let me know if you run into any issues or need more improvements.", "Got it! 😎 Let me know if you need anything."]
+    },
+    "goodbyes": {
+        "patterns": ["bye", "goodbye", "see you later", "take care", "catch you later", "farewell"],
+        "responses": ["See you later!", "Goodbye!", "Take care!", "Bye!", "Catch you next time!"]
+    },
+    "how_are_you": {
+        "patterns": ["how are you", "how's it going", "how are you doing", "how are things"],
+        "responses": ["I'm just a bot, but I'm doing great! How are you?"]
+    },
+    "thanks": {
+        "patterns": ["thanks", "thank you", "appreciate it", "much obliged", "you're a lifesaver"],
+        "responses": ["You're welcome!", "Happy to help!", "Anytime!", "My pleasure!"]
+    },
+    "weather": {
+        "patterns": ["what's the weather like", "how's the weather", "is it raining", "is it hot today", "weather update"],
+        "responses": ["I can't check the weather, but you can try a weather app!", "I recommend looking outside!"]
+    },
+    "jokes": {
+        "patterns": ["tell me a joke", "make me laugh", "say something funny"],
+        "responses": [
+            "Why don't scientists trust atoms? Because they make up everything!",
+            "What do you call fake spaghetti? An impasta!",
+            "I told my computer I needed a break... and now it won’t stop sending me vacation ads!"
+        ]
+    },
+    "name": {
+        "patterns": ["what's your name", "who are you", "tell me your name"],
+        "responses": ["I'm your friendly chatbot!", "You can call me ChatBot!", "Just a bot, but here to help!"]
+    },
+    "age": {
+        "patterns": ["how old are you", "what's your age", "when were you created"],
+        "responses": ["I'm timeless!", "Age is just a number... and I don’t have one!", "I was created recently!"]
+    },
+    "hobbies": {
+        "patterns": ["what do you do for fun", "what are your hobbies", "how do you spend your time"],
+        "responses": ["I enjoy chatting with you!", "Helping people is my favorite thing!", "I like processing words and making conversations better!"]
+    },
+    "chatbot_purpose": {
+        "patterns": ["what can you do", "how can you help me", "what's your purpose"],
+        "responses": ["I can answer questions, tell jokes, and chat with you!", "I’m here to assist and entertain!", "Try asking me something interesting!", "I'm here to assist you!"]
+    },
+    "country_capitals": {
+        "patterns": [
+            "what is the capital of (.*)",
+            "capital of (.*)",
+            "tell me the capital of (.*)"
+        ],
+        "responses": {
+            "usa": "Washington, D.C.",
+            "pakistan": "Islamabad",
+            "bangladesh": "Dhaka",
+            "canada": "Ottawa",
+            "france": "Paris",
+            "germany": "Berlin",
+            "italy": "Rome",
+            "spain": "Madrid",
+            "japan": "Tokyo",
+            "china": "Beijing",
+            "russia": "Moscow",
+            "brazil": "Brasília",
+            "india": "New Delhi",
+            "australia": "Canberra",
+            "south africa": "Pretoria (administrative), Cape Town (legislative), Bloemfontein (judicial)"
+        }
+    },
+    "fallback": {
+        "patterns": [],
+        "responses": [
+            "I'm not sure about that. Can you ask in a different way?",
+            "Interesting! Tell me more.",
+            "That's a great question! What do you think?",
+            "I'm still learning! Let's talk about something else."
+        ]
+    }
+}
