@@ -28,7 +28,7 @@ An interactive AI-powered chatbot built with Python, designed to engage in conve
 ```plaintext
 Chatbot/
 │
-├── chatbot.py           # Main chatbot logic and GUI
+├── app.py           # Main chatbot logic and GUI
 ├── responses.json       # Predefined chatbot responses
 ├── unknown_queries.txt  # Logs unknown user queries
 ├── requirements.txt     # Dependencies
@@ -43,7 +43,18 @@ Chatbot/
 git clone https://github.com/ifra817/CodeAlpha_Chatbot_Ifra.git
 cd CodeAlpha_Chatbot_Ifra
 ```
+### Set Up Virtual Environment
+```bash
+python -m venv venv
 
+# Activate the virtual environment
+# On Windows:
+venv\Scripts\activate
+
+# On Mac/Linux:
+source venv/bin/activate
+Note: The virtual environment folder (venv/) has been excluded from the repository. Use the provided requirements.txt to install dependencies.
+```
 ### Install Dependencies
 
 ```bash
@@ -56,7 +67,7 @@ python -m spacy download en_core_web_md
 Run the chatbot with:
 
 ```bash
-python chatbot.py
+python app.py
 ```
 
 ### 📌 Future Enhancements
