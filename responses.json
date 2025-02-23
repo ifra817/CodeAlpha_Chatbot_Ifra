@@ -11,11 +11,15 @@
         ]
     },
     "okay": {
-        "patterns": ["okay", "alright", "alrighty", "alright then"],
-        "responses": ["Great! Let me know if you run into any issues or need more improvements.", "Got it! 😎 Let me know if you need anything."]
+        "patterns": ["ok", "okay", "alright", "alrighty", "alright then"],
+        "responses": ["Great! Let me know if you run into any issues or need more improvements.", "Got it! Let me know if you need anything."]
+    },
+    "creator": {
+        "patterns": ["who created you"],
+        "responses": ["I was created by Ifra Ahmed"]
     },
     "goodbyes": {
-        "patterns": ["bye", "goodbye", "see you later", "take care", "catch you later", "farewell"],
+        "patterns": ["ok bye", "toodles","bye", "goodbye", "see you later", "take care", "catch you later", "farewell"],
         "responses": ["See you later!", "Goodbye!", "Take care!", "Bye!", "Catch you next time!"]
     },
     "how_are_you": {
@@ -54,6 +58,10 @@
         "patterns": ["what can you do", "how can you help me", "what's your purpose"],
         "responses": ["I can answer questions, tell jokes, and chat with you!", "I’m here to assist and entertain!", "Try asking me something interesting!", "I'm here to assist you!"]
     },
+    "wikipedia_queries": {
+        "patterns": ["who is (.+)", "tell me about (.+)", "what is (.+)"],
+        "responses": ["Let me look that up for you!"]
+    },
     "country_capitals": {
         "patterns": [
             "what is the capital of (.*)",
@@ -62,6 +70,7 @@
         ],
         "responses": {
             "usa": "Washington, D.C.",
+            "america": "Washington, D.C.",
             "pakistan": "Islamabad",
             "bangladesh": "Dhaka",
             "canada": "Ottawa",
@@ -78,11 +87,18 @@
             "south africa": "Pretoria (administrative), Cape Town (legislative), Bloemfontein (judicial)"
         }
     },
+    "trivia": {
+        "patterns": ["tell me a fact", "interesting fact", "did you know"],
+        "responses": [
+            "Did you know that honey never spoils?",
+            "Octopuses have three hearts!",
+            "Bananas are berries, but strawberries aren't!"
+        ]
+    },
     "fallback": {
         "patterns": [],
         "responses": [
             "I'm not sure about that. Can you ask in a different way?",
-            "Interesting! Tell me more.",
             "That's a great question! What do you think?",
             "I'm still learning! Let's talk about something else."
         ]
