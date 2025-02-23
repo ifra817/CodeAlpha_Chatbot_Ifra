@@ -1,0 +1,5 @@
+spacy
+wikipedia-api
+numpy
+scikit-learn
+tk
